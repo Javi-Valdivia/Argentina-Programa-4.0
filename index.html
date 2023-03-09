@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Curriculum Futurista</title>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+        
+        <section><ul>
+            <li><a href="#about" onclick="enfocarSeccion1()">Sobre Mí</a></li>
+            <li><a href="#experience" onclick="enfocarSeccion2()">Experiencia</a></li>
+            <li><a href="#skills" onclick="enfocarSeccion3()">Habilidades</a></li>
+            <li><a href="#contact" onclick="enfocarSeccion4()" >Contacto</a></li>
+          </ul></section>
+        <section class="nav">
+            <h1>CURRICULUM VITAE</h1>
+        </section>
+      
+    </nav>
+  </header>
+  
+  <section id="about">
+    <div class="container">
+      <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Foto de perfil">
+      <h1>John Doe</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec lacinia urna, non commodo nibh. Suspendisse eu libero ut quam fringilla scelerisque ut in sapien. Ut lobortis, tellus ut interdum varius, tellus velit tincidunt velit, sed vestibulum est tortor non mi.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Experiencia</h2>
+      <ul>
+        <li>
+          <h3>Desarrollador Front-end</h3>
+          <h4>Empresa 1</h4>
+          <p>Fecha de inicio - Fecha de fin</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec lacinia urna, non commodo nibh.</p>
+        </li>
+        <li>
+          <h3>Desarrollador Back-end</h3>
+          <h4>Empresa 2</h4>
+          <p>Fecha de inicio - Fecha de fin</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec lacinia urna, non commodo nibh.</p>
+        </li>
+        <li>
+          <h3>Diseñador UX/UI</h3>
+          <h4>Empresa 3</h4>
+          <p>Fecha de inicio - Fecha de fin</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec lacinia urna, non commodo nibh.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skill">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>Git</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Asunto</label>
+        <input type="text" id="subject" name="subject" required>
+        
+        <label for="message">Mensaje</label>
+        
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar</button>
+       </form>
+    </div>
+ </section>
+
+ <script src="main.js"></script>
+ <footer>
+    <div class="container">
+      <p>&copy; 2023 John Doe</p>
+      <ul>
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        
+      </ul>
+    </div>
+  </footer>
+</body>
